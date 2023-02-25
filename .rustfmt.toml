@@ -1,0 +1,79 @@
+# https://github.com/rust-lang/rustfmt/blob/master/Configurations.md
+
+# array_width
+# attr_fn_like_width
+# binop_separator
+blank_lines_lower_bound = 0 # default 0
+blank_lines_upper_bound = 1 # default 1
+brace_style = 'PreferSameLine'
+# chain_width
+color = 'Always'
+# combine_control_expr
+# comment_width
+# condense_wildcard_suffixes
+# control_brace_style
+# disable_all_formatting
+# doc_comment_code_block_width
+# edition
+# empty_item_single_line
+enum_discrim_align_threshold = 10
+# error_on_line_overflow
+# error_on_unformatted
+# fn_args_layout
+# fn_call_width
+# fn_params_layout
+fn_single_line = true
+# force_explicit_abi
+# force_multiline_blocks
+# format_code_in_doc_comments
+# format_generated_files
+# format_macro_bodies
+# format_macro_matchers
+format_strings = true
+# group_imports
+# hard_tabs
+hex_literal_case = 'Upper'
+# hide_parse_errors
+# ignore
+imports_granularity = 'Crate'
+# imports_indent
+imports_layout = 'HorizontalVertical'
+# indent_style
+inline_attribute_width = 100
+match_arm_blocks = false
+# match_arm_leading_pipes
+# match_block_trailing_comma
+# max_width
+# merge_derives
+# merge_imports
+# newline_style
+# normalize_comments
+# normalize_doc_attributes
+# overflow_delimited_expr
+# remove_nested_parens
+reorder_impl_items = true
+# reorder_imports
+# reorder_modules
+# required_version
+# short_array_element_width_threshold
+# single_line_if_else_max_width
+# skip_children
+# skip_macro_invocations
+# space_after_colon
+# space_before_colon
+# spaces_around_ranges
+struct_field_align_threshold = 10
+# struct_lit_single_line
+# struct_lit_width
+# struct_variant_width
+tab_spaces = 2
+# trailing_comma
+# trailing_semicolon
+# type_punctuation_density
+# unstable_features
+use_field_init_shorthand = true
+# use_small_heuristics
+# use_try_shorthand
+# version
+where_single_line = true
+wrap_comments = true
